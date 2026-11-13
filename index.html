@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="uz" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gulmira — Software Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-accent">&lt;</span>Gulmira<span class="logo-accent">/&gt;</span>
+            </a>
+            
+            <nav class="nav-links">
+                <a href="#hero" class="nav-link active" data-uz="Bosh sahifa" data-en="Home">Bosh sahifa</a>
+                <a href="#about" class="nav-link" data-uz="Men haqimda" data-en="About">Men haqimda</a>
+                <a href="#projects" class="nav-link" data-uz="Loyihalar" data-en="Projects">Loyihalar</a>
+                <a href="#skills" class="nav-link" data-uz="Ko'nikmalar" data-en="Skills">Ko'nikmalar</a>
+                <a href="#contact" class="nav-link" data-uz="Aloqa" data-en="Contact">Aloqa</a>
+            </nav>
+
+            <div class="controls">
+                <!-- Language Toggle -->
+                <button id="lang-btn" class="icon-btn" title="Change Language">
+                    <i class="fa-solid fa-globe"></i>
+                    <span id="lang-text">EN</span>
+                </button>
+                
+                <!-- Theme Toggle -->
+                <button id="theme-btn" class="icon-btn" title="Toggle Theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="badge" data-uz="🚀 Dasturchi & Innovator" data-en="🚀 Developer & Innovator">🚀 Dasturchi & Innovator</div>
+                <h1 class="hero-title">
+                    <span data-uz="Salom, men" data-en="Hi, I am">Salom, men</span> <span class="gradient-text">Gulmira</span>
+                </h1>
+                <h2 class="hero-subtitle" data-uz="Zamonaviy Veb va Raqamli Yechimlar Yaratuvchisi" data-en="Creative Web & Digital Solutions Developer">
+                    Zamonaviy Veb va Raqamli Yechimlar Yaratuvchisi
+                </h2>
+                <p class="hero-description" data-uz="Axborot tizimlari va zamonaviy veb-texnologiyalar bo'yicha mutassis. Kelajak texnologiyalarini bugun hayotga tatbiq etaman." data-en="Specialist in Information Systems and modern web technologies. Bringing future technologies to life today.">
+                    Axborot tizimlari va zamonaviy veb-texnologiyalar bo'yicha mutassis. Kelajak texnologiyalarini bugun hayotga tatbiq etaman.
+                </p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary" data-uz="Loyihalarni ko'rish" data-en="View Projects">Loyihalarni ko'rish</a>
+                    <a href="#contact" class="btn btn-secondary" data-uz="Bog'lanish" data-en="Contact Me">Bog'lanish</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <div class="image-bg-glow"></div>
+                <div class="image-frame">
+                    <img src="images/profile.jpg" alt="Gulmira - Dasturchi" class="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title" data-uz="Men Haqimda" data-en="About Me">Men Haqimda</h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <i class="fa-solid fa-graduation-cap card-icon"></i>
+                    <h3 data-uz="Ta'lim & Bilim" data-en="Education">Ta'lim & Bilim</h3>
+                    <p data-uz="TATU Farg'ona filialida Axborot tizimlari va texnologiyalari yo'nalishida 3-bosqich talabasiman." data-en="3rd-year Information Systems and Technologies student at TUIT Fergana Branch.">
+                        TATU Farg'ona filialida Axborot tizimlari va texnologiyalari yo'nalishida 3-bosqich talabasiman.
+                    </p>
+                </div>
+                <div class="about-card">
+                    <i class="fa-solid fa-code card-icon"></i>
+                    <h3 data-uz="Dasturlash" data-en="Development">Dasturlash</h3>
+                    <p data-uz="HTML, CSS, JavaScript, Veb tizimlar hamda interfeys dizaynini mukammal loyihalashga ixtisoslashganman." data-en="Specialized in HTML, CSS, JavaScript, Web Systems, and user interface design.">
+                        HTML, CSS, JavaScript, Veb tizimlar hamda interfeys dizaynini mukammal loyihalashga ixtisoslashganman.
+                    </p>
+                </div>
+                <div class="about-card">
+                    <i class="fa-solid fa-lightbulb card-icon"></i>
+                    <h3 data-uz="Startaplar & Innovatsiya" data-en="Startups & Innovation">Startaplar & Innovatsiya</h3>
+                    <p data-uz="Smart Fashion AI va innovatsion raqamli platformalar ustida faol ish olib boraman." data-en="Actively working on innovative startup projects like Smart Fashion AI.">
+                        Smart Fashion AI va innovatsion raqamli platformalar ustida faol ish olib boraman.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section bg-alt">
+        <div class="container">
+            <h2 class="section-title" data-uz="Saralangan Loyihalar" data-en="Featured Projects">Saralangan Loyihalar</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-badge">AI Startup</div>
+                    <h3>Smart Fashion AI</h3>
+                    <p data-uz="3D virtual kiyim kiyib ko'rish hamda sun'iy intellekt yordamida o'lchamlarni aniqlash tizimi." data-en="3D virtual fitting room app with AI-driven automatic body sizing and outfit recommendations.">
+                        3D virtual kiyim kiyib ko'rish hamda sun'iy intellekt yordamida o'lchamlarni aniqlash tizimi.
+                    </p>
+                    <div class="tags">
+                        <span>AI</span><span>3D Tech</span><span>Web</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-badge">Educational</div>
+                    <h3>EDU CENTRIC</h3>
+                    <p data-uz="Akademik halollik va shaffoflikka asoslangan ta'lim va brending platformasi." data-en="Educational brand platform focused on academic integrity and transparency.">
+                        Akademik halollik va shaffoflikka asoslangan ta'lim va brending platformasi.
+                    </p>
+                    <div class="tags">
+                        <span>Branding</span><span>UI/UX</span><span>Web</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-badge">Web Application</div>
+                    <h3>Interactive Enterprise System</h3>
+                    <p data-uz="Korxona axborot tizimlari interfeyslarini zamonaviy metodologiyalar bo'yicha loyihalash." data-en="Enterprise information system interfaces designed with modern development methodologies.">
+                        Korxona axborot tizimlari interfeyslarini zamonaviy metodologiyalar bo'yicha loyihalash.
+                    </p>
+                    <div class="tags">
+                        <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title" data-uz="Texnik Ko'nikmalar" data-en="Technical Skills">Texnik Ko'nikmalar</h2>
+            <div class="skills-wrapper">
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>HTML5 / CSS3 / JavaScript</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress" style="width: 95%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>UI/UX & Web Systems Design</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>3D Technologies & Modeling</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Cloud Technologies & Systems</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-alt">
+        <div class="container text-center">
+            <h2 class="section-title" data-uz="Men Bilan Bog'laning" data-en="Get In Touch">Men Bilan Bog'laning</h2>
+            <p class="contact-subtitle" data-uz="Yangi loyihalar yoki hamkorlik bo'yicha savollaringiz bo'lsa, xabar qoldiring!" data-en="Have a project in mind or want to collaborate? Feel free to reach out!">
+                Yangi loyihalar yoki hamkorlik bo'yicha savollaringiz bo'lsa, xabar qoldiring!
+            </p>
+            <div class="social-links">
+                <a href="#" class="social-btn"><i class="fa-brands fa-github"></i> GitHub</a>
+                <a href="#" class="social-btn"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                <a href="#" class="social-btn"><i class="fa-brands fa-telegram"></i> Telegram</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>&copy; 2026 Gulmira. <span data-uz="Barcha huquqlar himoyalangan." data-en="All rights reserved.">Barcha huquqlar himoyalangan.</span></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
